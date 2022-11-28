@@ -1,0 +1,25 @@
+*       {
+    background-color: red;
+}
+.html   {
+    scroll-behavior: smooth;
+}
+#header {
+    position: absolute; 
+    font-family: sans-serif;
+    margin-left: 250px;
+    color: white;
+}
+.button1:hover    {
+    position: absolute;
+    margin-left: 540px;
+    margin-top: 220px;
+    font-size: 50px;
+    color: white;
+    border-radius: 7px;
+    box-shadow: white 0px 0px 5px 5px;
+   
+}
+
+
+
