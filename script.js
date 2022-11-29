@@ -1,7 +1,7 @@
 alert("Hello Human! 😀")
 alert("This quiz has a few rules!")
 alert("This is a timed quiz.")
-alert("There is total of 5 questions")
+alert("There is total of 4 questions")
 alert("Your score will be displayed upon completion 🙃")
 
 var startMin = 3;
