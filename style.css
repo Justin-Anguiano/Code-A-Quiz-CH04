@@ -1,24 +1,33 @@
 *       {
     background-color: red;
 }
-.html   {
-    scroll-behavior: smooth;
-}
-#header {
-    position: absolute; 
+
+.header {
+    display: block;
+    justify-content: first baseline;
     font-family: sans-serif;
+    margin-top: 20px;
     margin-left: 250px;
     color: white;
 }
-.button1:hover    {
-    position: absolute;
-    margin-left: 540px;
+#btn    {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 470px;
     margin-top: 220px;
     font-size: 50px;
     color: white;
     border-radius: 7px;
-    box-shadow: white 0px 0px 5px 5px;
-   
+    box-shadow: white 0 0 5px 5px;
+}
+#countdown   {
+    float: right;
+    margin-right: 15px;
+    margin-top: -54px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
 }
 
 
