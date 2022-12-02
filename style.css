@@ -1,34 +1,62 @@
 *       {
     background-color: white;
 }
-
-.header {
-    display: block;
-    justify-content: first baseline;
+ #welcome {
+    text-align: center;
+    font-size: 25px;
     font-family: sans-serif;
+    color: white;
+    background-color: purple;
     margin-top: 20px;
-    margin-left: 250px;
-    color: purple;
+    margin-left: 430px;
+    margin-right: 430px;
+   
 }
-#countdown    {
-    flex-wrap: wrap;
-    justify-content: center;
+#countdown   {
     margin-left: 470px;
     margin-top: 220px;
+    padding-right: 80px;
     font-size: 50px;
+    text-shadow: 5px;
     color: purple;
-    border-radius: 7px;
     box-shadow: purple 0 0 5px 5px;
 }
-#timer   {
+#counter   {
     float: right;
-    margin-right: 15px;
-    margin-top: -54px;
+    margin-top: 50px;
+    margin-right: -300px;
     font-family: sans-serif;
     font-weight: bold;
-    color: black;
+    color: purple;
     font-size: 30px;
 }
+#submit { 
+    margin-top: 50px;  
+    margin-left: 550px;
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    color: purple;
+    font-size: 30px;
+    
+}
+#next {
+    margin-top: 500px;  
+    margin-left: 550px;
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    color: purple;
+    font-size: 26px;
+}
+#results { 
+    margin-top: 50px;  
+    margin-left: 550px;
+    display: block;
+    text-align: center;
+    font-family: sans-serif;
+    color: purple;
+    font-size: 30px;
 
 
 
