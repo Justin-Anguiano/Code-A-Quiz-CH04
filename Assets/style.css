@@ -1,0 +1,39 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+ #welcome {
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: white;
+    background-color: purple;
+    margin-top: 20px;
+    margin-left: 430px;
+    margin-right: 430px;
+   
+}
+#countdown   {
+    margin-left: 480px;
+    margin-right: 480px;
+    padding-left: 75px;
+    margin-top: 20px;
+    font-size: 30px;
+    text-shadow: 5px;
+    color: purple;
+   
+}
+
+.btn {
+    display: block;
+    font-size: 15px;
+    color: purple;
+}
+
+.btn:hover {
+    border-color: black;
+}
+.hide {
+    display: none;
+}

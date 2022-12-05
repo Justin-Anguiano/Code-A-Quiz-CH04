@@ -4,19 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Assets/style.css">
     
     <title>Bootcamp Coding Quiz</title>
 </head>
 <body>
     <div class="container" id="welcome">Welcome to the Bootcamp Assessment!
-        <h1 id="counter">03:00</h1>
-    </div>
-        <button id="next">Next Question</button>
-        <button id="submit">Submit Quiz</button>
-        <button id="results">Results</button>                     
         
-    <script src="script.js"></script>    
+    </div>
+        <p id="countdown">180</p>
+            <div class="container">
+                <div id="question-container" class="hide"></div>
+                <div id="question">Question</div>
+                    
+                <div id="answer-buttons" class="btn-grid"></div>
+                <button class="btn">Answer 1</button>
+                <button class="btn">Answer 2</button>
+                <button class="btn">Answer 3</button>
+                <button class="btn">Answer 4</button>
+
+                <div class="controls"></div>
+                <button id="start-btn" class start-btn btn hover>Start</button>
+                <button id="next-btn" class="next-btn hide" >Next Question</button>
+               
+               
+               
+                <!-- <button id="submit">Submit Quiz</button>
+                <button id="results">Results</button>  -->
+            </div>
+                            
+        
+    <script src="Assets/script.js"></script>    
     <!-- <script src="script2.js"></script>     -->
 </body>
 </html>
