@@ -8,13 +8,31 @@
     margin-top: 20px;
     margin-left: 430px;
     margin-right: 430px;
+    border-radius: 2%;
    }
-#question {
-    justify-content: center;
-    font-size: 25px;
-    color: blue;
+#container {
+    background-color: lightgrey;
+    margin-left: 285px;
+    margin-right: 300px;
+    border-radius: 2%;
+    padding: 1%;
+    font-family: sans-serif;
 }
 
+#start-btn {
+    align-items: center;
+    margin-left: 333px;
+    font-size: 25px;
+    color: black;
+    
+}
+#next-btn {
+        font-size: 25px;
+    color: black;
+}
+.best-score {
+    padding-top: 2px;
+}
 #countdown   {
     margin-left: 480px;
     margin-right: 480px;
@@ -33,6 +51,7 @@
 .btn:hover {
     border-color: blue;
 }
-.hide {
-    display: none;
-}
+.hidden  {
+    visibility: hidden;
+  }
+  

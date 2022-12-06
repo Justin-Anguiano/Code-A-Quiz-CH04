@@ -13,21 +13,31 @@
         
     </div>
         <p id="countdown">180</p>
-            <div class="container">
-                <div id="question-container" class="hide"></div>
-                <div id="question">Question</div>
-                    
-                <div id="answer-buttons" class="btn-grid"></div>
-                <!-- <button class="btn">Answer 1</button>
-                <button class="btn">Answer 2</button>
-                <button class="btn">Answer 3</button>
-                <button class="btn">Answer 4</button> -->
-
-                <div class="controls"></div>
-                <button id="start-btn" class="start-btn btn hover">Start</button>
-                <button id="next-btn" class="next-btn btn hover">Next</button>
-               
-            </div>
+            <div id="container" class="visible">
+                <!-- <div id="question-container" </div> -->
+                    <div class="controls"></div>
+                        <button id="start-btn" class="start-btn btn hover">Start</button>
+                        <button id="next-btn" class="next-btn btn hover">Next</button>
+                
+                <section id="questions1" class="hidden hover"></section>
+                    <p id="quiz1" class="quest1">What is the world's most popular programming language?</p>
+                        <button class="answer1" id="right1">JavaScript</button>
+                        <button class="answer2" id="wrong2">Java</button>
+                        <button class="answer3" id="wrong3">React</button>
+                <section id="questions2" class="hidden hover"></section>
+                    <p id="quiz2" class="quest2">What are the 4 ways to declare a variable?</p>
+                        <button class="answer4" id="wrong4">var</button>
+                        <button class="answer5" id="wrong5">const</button>
+                        <button class="answer6" id="wrong6">let</button>
+                        <button class="answer7" id="right7">All of these!</button>
+                <section id="questions3" class="hidden hover"></section>
+                    <p id="quiz3" class="quest3">What characters can be in a function name?</p>
+                        <button class="answer8" id="wrong8">letters</button>
+                        <button class="answer9" id="wrong9">digits</button>
+                        <button class="answer10" id="wrong10">underscores</button>
+                        <button class="answer11" id="right11">All of these!</button>
+                <section id="record" class="best-score">Best Scores Here</section>
+                <Input type="text" placeholder="Initials"></Input>
                             
         
     <script src="Assets/script.js"></script>    
